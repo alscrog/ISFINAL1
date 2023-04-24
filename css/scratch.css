@@ -44,3 +44,44 @@ ol {
     font-size: 30px;
     color: #4e6f54;
   }
+
+
+  .video-container {
+    display: flex;
+    justify-content: 10%;
+    align-items: top;
+    height: 100vh;
+  }
+
+  .video-container iframe {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+  img {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    size: 26px;
+    width: 500px;
+    height: 300px;
+}
+h2{
+    position: absolute;
+    top: 25%;
+    right: 18%;
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .video-container iframe {
+    max-width: 100%;
+    max-height: 100%;
+  }
